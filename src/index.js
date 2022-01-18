@@ -3,16 +3,17 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import { MuiPickersUtilsProvider } from '@material-ui/pickers';
-import DateFnsUtils from '@date-io/date-fns'
-import caLocale from 'date-fns/locale/ca'
+// import { MuiPickersUtilsProvider } from '@material-ui/pickers';
+// import DateFnsUtils from '@date-io/date-fns'
+// import caLocale from 'date-fns/locale/ca'
+// import {BrowserRouter, Router, Routes, Route, Link} from 'react-router-dom'
 
 
 ReactDOM.render(
   <React.StrictMode>
-  <MuiPickersUtilsProvider utils ={DateFnsUtils}>
+  {/* <MuiPickersUtilsProvider utils ={DateFnsUtils}> */}
     <App />
-    </MuiPickersUtilsProvider>
+    {/* </MuiPickersUtilsProvider> */}
   </React.StrictMode>,
   document.getElementById('root')
 );
